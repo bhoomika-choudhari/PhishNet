@@ -106,12 +106,9 @@ Screenshots:
 ![App Preview](https://github.com/Ashiii10/phishnet/blob/main/Screenshot%202025-07-10%20013310.png)
 ![App Preview](https://github.com/Ashiii10/phishnet/blob/main/Screenshot%202025-07-10%20013331.png)
 
-
-
-
-
-
-
+👩‍💻 Developed by
+Bhoomika Choudhari & Ashi Sharma
+🎓 Student Developer | 💡 AI Researcher
 
 
 
