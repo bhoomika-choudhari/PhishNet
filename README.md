@@ -42,11 +42,3 @@ Run the Streamlit App bash Copy code '''streamlit run frontend.py'''
 🌐 Deployment You can deploy this Streamlit app on: ✅ Streamlit Cloud – Free and easy deployment 🔁 HuggingFace Spaces – Use Gradio/Streamlit ☁️ AWS/GCP/Heroku – For production-level hosting
 
 Basic Steps for Streamlit Cloud: -Push your project to GitHub -Go to Streamlit Cloud -Click “New App” > Select repo > Choose frontend.py -Click Deploy
-
-Screenshots:
-
-📊 Model Evaluation Page
-App Preview App Preview App Preview App Preview App Preview
-
-🙋‍♂️ Acknowledgements Kaggle for the Phishing Dataset Streamlit for the rapid app development Scikit-learn and Keras for model development
-
