@@ -1,4 +1,4 @@
-# phishnet
+# PHISHNET
 🛡️ PhishNet – Phishing Website Detection using ML & Deep Learning
 PhishNet is a powerful web-based phishing detection system that uses Artificial Neural Networks, Random Forests, and SVM to classify websites as legitimate ✅ or phishing 🚨 based on 30 key features. The system is fully deployed via a Streamlit web app with live prediction, batch processing, and visualizations.
 
@@ -130,4 +130,5 @@ Bhoomika Choudhari & Ashi Sharma
 Kaggle for the Phishing Dataset
 Streamlit for the rapid app development
 Scikit-learn and Keras for model development
+
 
