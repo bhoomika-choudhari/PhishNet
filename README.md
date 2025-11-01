@@ -1,41 +1,57 @@
-# PHISHNET
+## PHISHNET
 🛡️ PhishNet – Phishing Website Detection using ML & Deep Learning
 PhishNet is a powerful web-based phishing detection system that uses Artificial Neural Networks, Random Forests, and SVM to classify websites as legitimate ✅ or phishing 🚨 based on 30 key features. The system is fully deployed via a Streamlit web app with live prediction, batch processing, and visualizations.
 
 📌 Table of Contents
-🔍 Problem Statement
-🚀 Proposed Work
-🧠 Models Used
-📊 Features & Enhancements
-🗂️ Dataset
-🔬 Evaluation Metrics
-💻 How to Run
-🌐 Deployment
-📸 Screenshots
+|----------------------------|
+|🔍 Problem Statement|
+|🚀 Proposed Work|
+|🧠 Models Used|
+|📊 Features & Enhancements|
+|🗂️ Dataset|
+|🔬 Evaluation Metrics|
+|💻 How to Run|
+|🌐 Deployment|
+|📸 Screenshots|
 
-🔍 Problem Statement
+# 🔍 Problem Statement
+
 Phishing prediction is the task of identifying and predicting the likelihood of a website, email, or message being a phishing attempt. Several challenges arise in building a phishing detection system:
-#Diversity of Attacks – Evolving, social engineering, brand mimicry.
-#Imbalanced Data – Far fewer phishing samples than legitimate ones.
-#Lack of Ground Truth – Phishing sites are taken down quickly.
-#Limited Access to Data – Proprietary or sensitive in nature.
-#Feature Engineering – Selecting generalizable and robust features.
 
-🚀 Proposed Work
+Diversity of Attacks – Evolving, social engineering, brand mimicry.
+
+Imbalanced Data – Far fewer phishing samples than legitimate ones.
+
+Lack of Ground Truth – Phishing sites are taken down quickly.
+
+Limited Access to Data – Proprietary or sensitive in nature.
+
+Feature Engineering – Selecting generalizable and robust features.
+
+# 🚀 Proposed Work
+
 This project addresses the above challenges through a streamlined deep learning-based solution with multiple model comparisons.
 
-✅ Project Workflow:
+# ✅ Project Workflow:
 -Dataset Acquisition: Downloaded phishing dataset from Kaggle.
+
 -Preprocessing: Cleaned data, handled missing values, label encoding, dropped unnecessary  columns (e.g., Index, class for training).
+
 -Train-Test Split: 80% training / 20% testing.
+
 -Feature Reduction: Used PCA for dimensionality reduction.
+
 -Model Training: Trained ANN, Random Forest, and SVM classifiers.
+
 -Evaluation: Compared metrics – Accuracy, Precision, Recall, F1-Score, ROC-AUC.
+
 -Frontend: Built a full Streamlit UI for real-time interaction and insights.
 
-🧠 Models Used:
+# 🧠 Models Used:
 🤖 Artificial Neural Network (ANN) – Deep learning-based classifier
+
 🌲 Random Forest (RF) – Ensemble learning technique
+
 📈 Support Vector Machine (SVM) – Kernel-based linear classifier
 
 | Feature                     | Description                                        |
@@ -52,12 +68,15 @@ This project addresses the above challenges through a streamlined deep learning-
 | 🔐 Authentication (Planned) | Secure user access to the app                   |
 
 
-🗂️ Dataset
+# 🗂️ Dataset
 -📁 Source: Kaggle Phishing Website Dataset
+
 -🔢 Features: 30 numerical features
+
 -🎯 Target: class (0 = Legitimate, 1 = Phishing)
 
-🔬 Evaluation Metrics
+# 🔬 Evaluation Metrics
+
 All models were evaluated using the test set (20% split) and compared on the following metrics:
 
 | Metric     | Description                                                  |
@@ -71,7 +90,7 @@ All models were evaluated using the test set (20% split) and compared on the fol
 
 The results are visualized in both table and bar chart formats.
 
-💻 How to Run
+# 💻 How to Run
 1. Clone the repository
 bash
 Copy code
@@ -86,19 +105,27 @@ bash
 Copy code
 '''streamlit run frontend.py'''
 
-🌐 Deployment
+# 🌐 Deployment
+
 You can deploy this Streamlit app on:
+
 ✅ Streamlit Cloud – Free and easy deployment
+
 🔁 HuggingFace Spaces – Use Gradio/Streamlit
+
 ☁️ AWS/GCP/Heroku – For production-level hosting
 
-Basic Steps for Streamlit Cloud:
+# Basic Steps for Streamlit Cloud:
+
 -Push your project to GitHub
+
 -Go to Streamlit Cloud
+
 -Click “New App” > Select repo > Choose frontend.py
+
 -Click Deploy
 
-Screenshots:
+# Screenshots:
 ### 📊 Model Evaluation Page
 ![App Preview](https://github.com/Ashiii10/phishnet/blob/main/Screenshot%202025-07-10%20013123.png)
 ![App Preview](https://github.com/Ashiii10/phishnet/blob/main/Screenshot%202025-07-10%20013227.png)
@@ -130,5 +157,6 @@ Bhoomika Choudhari & Ashi Sharma
 Kaggle for the Phishing Dataset
 Streamlit for the rapid app development
 Scikit-learn and Keras for model development
+
 
 
